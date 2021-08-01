@@ -16,6 +16,10 @@ function App() {
       text: 'Deploy React-app',
       completed: true,
     },
+    {
+      text: 'Clean up my room',
+      completed: false,
+    },
   ]);
 
   const onToggleCompleted = (index) => {
